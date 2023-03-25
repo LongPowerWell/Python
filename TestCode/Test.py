@@ -22,3 +22,10 @@ for file in audio_files:
 # 将结果保存到Excel文件中
 df = pd.DataFrame(audio_info, columns=['Name', 'Size', 'Duration'])
 df.to_excel('audio_info.xlsx', index=False)
+
+
+#这些错误提示都是Python中缺少相关模块的错误。您需要使用命令行或终端进入电脑，运行以下命令来安装缺失的模块：
+#1. 安装moviepy模块：`pip install moviepy`
+#2. 安装pandas模块：`pip install pandas`
+#3. 安装openpyxl模块：`pip install openpyxl`
+#安装完后，测试代码应该可以正常执行了。
